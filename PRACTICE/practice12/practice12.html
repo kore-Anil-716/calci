@@ -1,0 +1,43 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="practice12.css"/>
+        <script src="practice12.js" defer ></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <h1>Smart Calculator</h1>
+        <div class="Container">
+            <h1 class="heading">Emulator</h1>
+            <p class="result" id="para"></p>
+            <div class="btn_container">                  
+                <button class="btn red" onclick="refresh(this)"> <i class="fa-solid fa-sync ">.</i></button>
+                <button class="btn red" onclick="deleted(this)"><i class="fa-solid fa-delete-left">.</i></button>
+                <button class="btn red" onclick="percent(this)"><i class="fa-solid fa-percent"></i>.</button>
+                <button class="btn red" onclick="print(this)">/</button>
+                <button class="btn" onclick="print(this)">1</button>
+                <button class="btn" onclick="print(this)">2</button>
+                <button class="btn" onclick="print(this)">3</button>
+                <button class="btn red" onclick="print(this)">X</i></button>
+                <button class="btn" onclick="print(this)">4</button>
+                <button class="btn" onclick="print(this)">5</button>
+                <button class="btn" onclick="print(this)">6</button>
+                <button class="btn red" onclick="print(this)">-</i></button>
+                <button class="btn" onclick="print(this)">7</button>
+                <button class="btn" onclick="print(this)">8</button>
+                <button class="btn" onclick="print(this)">9</button>
+                <button class="btn red" onclick="print(this)">+</button>
+                <button class="btn red" onclick="print(this)"><i class="fa fa-reply" aria-hidden="true"></i>.</button>
+                <button class="btn" onclick="print(this)">0</button>
+                <button class="btn" onclick="print(this)">.</button>
+                <button class="btn red" onclick="equal(this)"><i class="fa-solid fa-equals ">.</i></button>
+                <!-- <button class="btn">0</button> fa-spin
+                    onclick="print()"
+                <button class="btn">0</button> -->
+            </div>
+        </div>
+    </body>
+</html>
